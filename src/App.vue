@@ -44,7 +44,7 @@ export default {
         {time:'08:45 - 09:00', type: 'Свободно', isShow:false},
         {id:5, time:'09:00 - 09:15', type: 'Занят', isShow:false, duration:15},
         {id:6, time:'09:15 - 09:30', type: 'Занят', isShow:false , duration:15},
-        {id:7, time:'09:30 - 09:45', type: 'Занят', isShow:false, duration:15},
+        {id:7, time:'09:30 - 09:45', type: 'Свободно', isShow:false, duration:15},
         {time:'09:45 - 10:00', type: 'Свободно', isShow:false},
         {time:'10:00 - 10:15', type: 'Свободно', isShow:false},
         {time:'10:15 - 10:30', type: 'Свободно', isShow:false},
