@@ -1,0 +1,15 @@
+.schedule{
+    padding:10px 20px;
+    border: 1px solid #e8e8e8;
+    border-bottom:none;
+    cursor:pointer;
+    transition: .3s;
+   
+  
+}
+.schedule:hover{
+    background:#e8e8e8;
+}
+.schedule:last-child{
+    border-bottom: 1px solid #e8e8e8;
+}
