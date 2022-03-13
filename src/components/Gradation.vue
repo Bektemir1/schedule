@@ -1,7 +1,7 @@
 <template>
- <div v-show="grad.isShow && grad.type==='Занят'" class="gradation" v-for="grad in gradation" :key="grad">
+ <div v-show="grad.isShow && grad.type==='Занят'"  v-for="grad in gradation" :key="grad" class="gradation">
   <h2 class="gradation-title">Градация</h2>
-  <p class="gradation-p">Длительность: <span>00:{{grad.duration}}</span></p>
+  <p class="gradation-p">Длительность: <span >{{grad.duration}}</span></p>
  </div>
 </template>
 
